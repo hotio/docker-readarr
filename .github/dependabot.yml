@@ -5,15 +5,3 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "master"
-
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    target-branch: "nightly"
-
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    target-branch: "pr"
