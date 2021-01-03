@@ -12,7 +12,7 @@
 
 ## Starting the container
 
-Just the basics to get the container running:
+CLI:
 
 ```shell
 docker run --rm \
