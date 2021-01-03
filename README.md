@@ -28,6 +28,28 @@ docker run --rm \
     hotio/readarr
 ```
 
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  readarr:
+    container_name: readarr
+    image: hotio/readarr
+    ports:
+      - "8787:8787"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+    volumes:
+      - /<host_folder_config>:/config
+```
+
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 ## Tags
