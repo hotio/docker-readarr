@@ -14,7 +14,7 @@
 
 Just the basics to get the container running:
 
-```shell hl_lines="4 5 6 7 8 9"
+```shell
 docker run --rm \
     --name readarr \
     -p 8787:8787 \
@@ -28,7 +28,7 @@ docker run --rm \
     hotio/readarr
 ```
 
-The [highlighted](https://hotio.dev/containers/readarr) variables are all optional, the values you see are the defaults. In most cases you'll need to add an additional volume (`-v`) or more, depending on your own personal preference, to get access to additional files.
+In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 ## Tags
 
