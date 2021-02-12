@@ -22,7 +22,6 @@ docker run --rm \
     -e PGID=1000 \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
-    -e ARGS="" \
     -v /<host_folder_config>:/config \
     hotio/readarr
 ```
@@ -43,7 +42,6 @@ services:
       - PGID=1000
       - UMASK=002
       - TZ=Etc/UTC
-      - ARGS
     volumes:
       - /<host_folder_config>:/config
 ```
