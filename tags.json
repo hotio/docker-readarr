@@ -23,10 +23,10 @@
     },
     {
       "name": "pr",
-      "version": "",
-      "commit": "",
+      "version": "native-mvc-0.1.0.511",
+      "commit": "2069fb9",
       "upstream": "pull requests",
-      "lastUpdated": ""
+      "lastUpdated": "2021-02-23T17:47:42.767Z"
     }
   ]
 }
