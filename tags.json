@@ -20,13 +20,6 @@
       "commit": "566f89e",
       "upstream": "nightly",
       "lastUpdated": "2021-03-04T05:19:40.519Z"
-    },
-    {
-      "name": "pr",
-      "version": "0.1.0.525",
-      "commit": "6033c63",
-      "upstream": "pull requests",
-      "lastUpdated": "2021-03-08T12:18:37.759Z"
     }
   ],
   "pulls": 8765234,
